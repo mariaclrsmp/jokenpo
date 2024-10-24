@@ -10,8 +10,10 @@ if jogador == 1:
     jogador = 'Pedra'
 elif jogador == 2:
     jogador = 'Papel'
-else:
+elif jogador == 3:
     jogador = 'Tesoura'
+else:
+    print('Opção inválida. Digite uma opção de 1 a 3.')
 
 print('-'*30)
 if sorteado == jogador:
